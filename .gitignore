@@ -27,7 +27,7 @@ ENV/
 env.bak/
 venv.bak/
 
-# PyCharm
+# PyCharm / JetBrains
 .idea/
 *.iml
 .idea_modules/
@@ -36,7 +36,19 @@ venv.bak/
 .vscode/
 *.code-workspace
 
-# Game save files (optional - remove these lines if you want to track them)
+# Node / React
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# NPM logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Game save files
 best_score.json
 benchmark_results.json
 
@@ -50,11 +62,9 @@ ehthumbs.db
 Thumbs.db
 desktop.ini
 
-# Logs
+# Logs & temp
 *.log
 *.log.*
-
-# Temporary files
 *.tmp
 *.temp
 *~
